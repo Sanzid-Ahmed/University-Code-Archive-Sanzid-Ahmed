@@ -7,9 +7,11 @@ int main()
 
     for (i=1; i<=n; i++)
     {
-        printf("%d",i);
+        printf("%d", i%2);
         if (i<n)
+        {
             printf(", ");
+        }
     }
     return 0;
 }
